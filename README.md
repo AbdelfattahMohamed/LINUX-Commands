@@ -63,7 +63,6 @@ Hello everone, Let's see LINUX commands...
 | where | means "where this command" & more details | _ |
 | lcoate Name | Search & Return pathes include this name| EX:"locate firefox" __File System__|
 | find Name | Search & Return pathes include this name | __My files__ |
-
 | ps | Return the Programs is running | _ |
 | w | Return users whose logged in | _ |
 | id | Return info like id, name & more details about users | _ |
