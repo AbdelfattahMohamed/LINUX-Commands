@@ -45,6 +45,9 @@ Hello everone, Let's see LINUX commands...
 
 | Command | Return | Notes |
 | --- | --- | --- |
+| ls * .docs | Return all docx | _ |
+| ls * .doc | Return all doc | _ |
+| ls * .docs* | Return anu file include doc | _ |
 | test* | test1,test2,test3,test11,test111 | _ |
 | test? | test1,test2,test3 | ? return one char after test word |
 | test?? | test11 | _ |
