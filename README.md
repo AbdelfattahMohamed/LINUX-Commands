@@ -42,15 +42,13 @@ Hello everone, Let's see LINUX commands...
 
 > some Issues & commands
 > we assume we have a directory include "test1,test2,test3,test11,test111" 
+
 | Command | Return | Notes |
 | --- | --- | --- |
 | test* | test1,test2,test3,test11,test111 | _ |
 | test? | test1,test2,test3 | ? return one char after test word |
 | test?? | test11 | _ |
 | test??? | test111 | _ |
-| ls *.docs | Return all docx | _ |
-| ls *.doc | Return all doc | _ |
-| ls *.docs* | Return anu file include doc | _ |
 | test[1-2] | test1,test2 | _ |
 | test[1,3] | test1,test3 | _ |
 | ls>file.txt | Overwrite the run of this command "ls" in file file.txt | _ |
